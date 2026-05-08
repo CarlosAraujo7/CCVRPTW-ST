@@ -1,0 +1,26 @@
+{
+  "instance": "CCVRPTW-ST_RC1_100_MEDIUM",
+  "family": "RC1",
+  "size": 100,
+  "uncertainty": "medium",
+  "sigma_T_C": 1.0,
+  "algorithm": "NSGA2-MC10",
+  "seed": 0,
+  "pop_size": 100,
+  "n_gen": 200,
+  "mc_samples": 10,
+  "elapsed_s": 84.3,
+  "pareto_size": 13,
+  "n_feasible": 13,
+  "hypervolume": 83096.36359146,
+  "spread": 0.742834,
+  "gd": 0.0,
+  "best_cost_BRL": 8406.56,
+  "best_quality_pct": 98.403,
+  "best_co2_kg": 504.5229,
+  "ref_point_global": [
+    17415.530000001,
+    0.036111901,
+    1054.9113300010001
+  ]
+}

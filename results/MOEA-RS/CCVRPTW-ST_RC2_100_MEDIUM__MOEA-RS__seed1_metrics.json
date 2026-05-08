@@ -1,0 +1,26 @@
+{
+  "instance": "CCVRPTW-ST_RC2_100_MEDIUM",
+  "family": "RC2",
+  "size": 100,
+  "uncertainty": "medium",
+  "sigma_T_C": 1.0,
+  "algorithm": "MOEA-RS",
+  "seed": 1,
+  "pop_size": 100,
+  "n_gen": 200,
+  "mc_samples": 30,
+  "elapsed_s": 44.44,
+  "pareto_size": 5,
+  "n_feasible": 5,
+  "hypervolume": 4985.75869065,
+  "spread": 0.671393,
+  "gd": 0.0,
+  "best_cost_BRL": 13624.91,
+  "best_quality_pct": 96.316,
+  "best_co2_kg": 979.9102,
+  "ref_point_global": [
+    15986.773000001001,
+    0.052422701,
+    1157.6671700010002
+  ]
+}

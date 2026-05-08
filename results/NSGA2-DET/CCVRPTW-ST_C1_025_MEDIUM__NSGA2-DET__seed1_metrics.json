@@ -1,0 +1,26 @@
+{
+  "instance": "CCVRPTW-ST_C1_025_MEDIUM",
+  "family": "C1",
+  "size": 25,
+  "uncertainty": "medium",
+  "sigma_T_C": 1.0,
+  "algorithm": "NSGA2-DET",
+  "seed": 1,
+  "pop_size": 100,
+  "n_gen": 200,
+  "mc_samples": 0,
+  "elapsed_s": 34.53,
+  "pareto_size": 100,
+  "n_feasible": 100,
+  "hypervolume": 4677.24152088,
+  "spread": 1.587473,
+  "gd": 0.0,
+  "best_cost_BRL": 1907.67,
+  "best_quality_pct": 98.977,
+  "best_co2_kg": 99.7292,
+  "ref_point_global": [
+    5936.502000001001,
+    0.027234901000000002,
+    217.64974000100003
+  ]
+}

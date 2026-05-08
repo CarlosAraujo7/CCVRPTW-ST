@@ -1,0 +1,3 @@
+sol_id,f1_cost_BRL,f2_quality_loss,f3_co2_kg,n_routes,feasible
+1,2707.53,0.027478,181.5567,4,True
+2,2921.63,0.027132,200.0009,4,True

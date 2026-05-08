@@ -1,0 +1,26 @@
+{
+  "instance": "CCVRPTW-ST_R1_025_LOW",
+  "family": "R1",
+  "size": 25,
+  "uncertainty": "low",
+  "sigma_T_C": 0.5,
+  "algorithm": "NSGA2-MC",
+  "seed": 4,
+  "pop_size": 100,
+  "n_gen": 200,
+  "mc_samples": 30,
+  "elapsed_s": 18.44,
+  "pareto_size": 34,
+  "n_feasible": 34,
+  "hypervolume": 15249.58743996,
+  "spread": 0.914687,
+  "gd": 0.0,
+  "best_cost_BRL": 2570.08,
+  "best_quality_pct": 98.688,
+  "best_co2_kg": 154.7127,
+  "ref_point_global": [
+    8635.154000001,
+    0.032953801,
+    349.586820001
+  ]
+}

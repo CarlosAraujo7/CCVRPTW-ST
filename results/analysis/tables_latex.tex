@@ -1,0 +1,64 @@
+% === Tabela 1: Hipervolume por Família ===
+\begin{table}[ht]
+\centering
+\caption{Hipervolume médio (ref. global) por família de instâncias}
+\label{tab:hv_familia}
+\begin{tabular}{lrrrr}
+\toprule
+\textbf{Família} & \textbf{NSGA2-MC} & \textbf{NSGA2-MC10} & \textbf{NSGA2-DET} & \textbf{MOEA-RS} \\
+\midrule
+C1 & \textbf{40,294} & 38,830 & 38,726 & 6,522 \\
+C2 & 54,607 & \textbf{55,025} & 54,813 & 2,076 \\
+R1 & \textbf{55,487} & 55,087 & 55,066 & 11,146 \\
+R2 & 124,548 & \textbf{124,762} & 121,987 & 4,088 \\
+RC1 & \textbf{42,588} & 42,081 & 42,125 & 8,145 \\
+RC2 & 86,266 & \textbf{86,491} & 84,850 & 2,673 \\
+\midrule
+\textit{Média} & \textbf{67,298} & 67,046 & 66,261 & 5,775 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% === Tabela 2: Hipervolume por Tamanho e Incerteza ===
+\begin{table}[ht]
+\centering
+\caption{Hipervolume médio por tamanho de instância e nível de incerteza}
+\label{tab:hv_tamanho}
+\begin{tabular}{llrrrr}
+\toprule
+\textbf{n} & \textbf{Incerteza} & \textbf{NSGA2-MC} & \textbf{NSGA2-MC10} & \textbf{NSGA2-DET} & \textbf{MOEA-RS} \\
+\midrule
+25 & Baixa & \textbf{7,756} & 7,519 & 7,552 & 2,898 \\
+ & Média & 9,291 & \textbf{9,377} & 8,978 & 3,909 \\
+ & Alta & 9,727 & \textbf{10,352} & 9,531 & 3,775 \\
+\midrule
+50 & Baixa & 32,539 & 32,273 & \textbf{32,635} & 4,901 \\
+ & Média & 31,475 & \textbf{32,805} & 31,537 & 4,814 \\
+ & Alta & 28,269 & \textbf{29,338} & 29,176 & 3,662 \\
+\midrule
+100 & Baixa & \textbf{165,545} & 162,233 & 160,395 & 10,698 \\
+ & Média & \textbf{155,519} & 155,070 & 153,604 & 7,469 \\
+ & Alta & \textbf{165,565} & 164,449 & 162,941 & 9,849 \\
+\midrule
+\bottomrule
+\end{tabular}
+\end{table}
+
+% === Tabela 3: Wilcoxon ===
+\begin{table}[ht]
+\centering
+\caption{Teste de Wilcoxon signed-rank (hipervolume, $n=270$ pares)}
+\label{tab:wilcoxon}
+\begin{tabular}{llrrll}
+\toprule
+\textbf{Alg. A} & \textbf{Alg. B} & \textbf{HV(A)} & \textbf{HV(B)} & \textbf{$p$-valor} & \textbf{Vencedor} \\
+\midrule
+MOEA-RS & NSGA2-DET & 5,775 & 66,261 & $<0.001$ & \textbf{NSGA2-DET} \\
+MOEA-RS & NSGA2-MC & 5,775 & 67,298 & $<0.001$ & \textbf{NSGA2-MC} \\
+MOEA-RS & NSGA2-MC10 & 5,775 & 67,046 & $<0.001$ & \textbf{NSGA2-MC10} \\
+NSGA2-DET & NSGA2-MC & 66,261 & 67,298 & 0.0366 & \textbf{NSGA2-MC} \\
+NSGA2-DET & NSGA2-MC10 & 66,261 & 67,046 & 0.0082 & \textbf{NSGA2-MC10} \\
+NSGA2-MC & NSGA2-MC10 & 67,298 & 67,046 & 0.2984 & NSGA2-MC \\
+\bottomrule
+\end{tabular}
+\end{table}

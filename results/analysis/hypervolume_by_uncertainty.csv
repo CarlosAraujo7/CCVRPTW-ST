@@ -1,0 +1,4 @@
+uncertainty,sigma_T_C,MOEA-RS,NSGA2-DET,NSGA2-MC,NSGA2-MC10
+LOW,0.5,—,—,—,—
+MEDIUM,1.0,—,—,—,—
+HIGH,2.0,—,—,—,—

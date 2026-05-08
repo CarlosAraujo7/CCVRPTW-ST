@@ -1,0 +1,26 @@
+{
+  "instance": "CCVRPTW-ST_C1_050_LOW",
+  "family": "C1",
+  "size": 50,
+  "uncertainty": "low",
+  "sigma_T_C": 0.5,
+  "algorithm": "MOEA-RS",
+  "seed": 3,
+  "pop_size": 100,
+  "n_gen": 200,
+  "mc_samples": 30,
+  "elapsed_s": 32.6,
+  "pareto_size": 10,
+  "n_feasible": 10,
+  "hypervolume": 3205.98017461,
+  "spread": 0.571375,
+  "gd": 0.0,
+  "best_cost_BRL": 4905.13,
+  "best_quality_pct": 97.727,
+  "best_co2_kg": 319.1845,
+  "ref_point_global": [
+    8724.925000001002,
+    0.033688601000000006,
+    467.339620001
+  ]
+}
